@@ -1,0 +1,57 @@
+.con
+{
+    background: #404040;
+    
+    
+
+}
+
+
+.head
+{
+    font-size: 12rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: left;
+    
+}
+
+.icons
+{
+   padding-top: 7rem;
+  
+ 
+}
+
+.border
+{
+    border-top: 3px solid #979797;
+   border-bottom: 3px solid #979797; 
+   margin-left: 5.5rem;
+   margin-right: 5.5rem;
+   padding-top: 5rem;
+   padding-bottom: 5rem;
+
+}
+
+.sub
+{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    
+}
+
+
+
+
+
+@media (max-width: 991.98px) { 
+
+    .head
+    {
+        text-align: center;
+        
+    }
+}
