@@ -25,12 +25,12 @@
 
 .border
 {
-    border-top: 3px solid #979797;
-   border-bottom: 3px solid #979797; 
+    border-top: 1px solid #979797;
+   border-bottom: 1px solid #979797; 
    margin-left: 5.5rem;
    margin-right: 5.5rem;
-   padding-top: 5rem;
-   padding-bottom: 5rem;
+   padding-top: 3rem;
+   padding-bottom: 3rem;
 
 }
 

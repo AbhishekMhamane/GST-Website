@@ -4,6 +4,7 @@ import react,{ Component } from "react";
 import {BrowserRouter as Router,Switch,Route,Redirect} from "react-router-dom";
 import Homepage from "./Views/Home/Homepage";
 import Aboutpage from "./Views/About/Aboutpage";
+import FormPage from './Views/FormPage/FormPage';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Switch>
      <Route exact path="/homepage" component={Homepage}/>
      <Route exact path="/about" component={Aboutpage}/>
+     <Route exact path="/formpage" component={FormPage}/>
     <Route path="/*" component={()=> <Redirect to='/homepage'/> }  />
 
      </Switch>

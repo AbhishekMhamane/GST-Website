@@ -72,7 +72,7 @@ function Footer() {
   
 
               <Col xl={5} lg={5}   >
-              <p style={{fontSize:"1.8rem",color:"#FFFFFF",paddingTop:"4rem",paddingBottom:"4rem"}}>© 2020 GST. ALL RIGHTS RESERVED</p>
+              <p style={{fontSize:"1.5rem",color:"#FFFFFF",paddingTop:"4rem",paddingBottom:"3rem"}}>© 2020 GST. ALL RIGHTS RESERVED</p>
               </Col>
 
                </Row>
@@ -80,23 +80,23 @@ function Footer() {
 
 
                <Row  style={{paddingBottom:"2rem",marginLeft:"5rem",marginRight:"5rem"}}>
-               <Col xl={3} lg={2}  >
-               <p style={{fontSize:"1.8rem",color:"#FFFFFF"}}>TERMS & CONDITION</p>
+               <Col xl={3} lg={3} >
+               <p style={{fontSize:"1.5rem",color:"#FFFFFF"}}>TERMS & CONDITION</p>
 
                 </Col>
 
                 <Col xl={2} lg={2}   >
-                <p style={{fontSize:"1.8rem",color:"#FFFFFF"}}>PRIVACY POLICY</p>
+                <p style={{fontSize:"1.5rem",color:"#FFFFFF"}}>PRIVACY POLICY</p>
 
                 </Col>
 
                 <Col xl={2} lg={2}   >
-                <p style={{fontSize:"1.8rem",color:"#FFFFFF"}}>COOKIE POLICY</p>
+                <p style={{fontSize:"1.5rem",color:"#FFFFFF"}}>COOKIE POLICY</p>
 
                 </Col>
 
                 <Col xl={5} lg={5}>
-                <p style={{fontSize:"1.8rem",color:"#FFFFFF"}}>Any Questions? Drop Us A Line At howdy@gst.com</p>
+                <p style={{fontSize:"1.5rem",color:"#FFFFFF"}}>Any Questions? Drop Us A Line At howdy@gst.com</p>
                 </Col>
 
                 </Row>

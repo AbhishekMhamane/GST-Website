@@ -3,6 +3,7 @@ import classes from "./Homepage.module.css";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 
+import {Link} from 'react-router-dom';
 import { Button, Card, Col, Container, Image, Row } from 'react-bootstrap';
 import Bitmap from "../../asset/Bitmap.png";
 import Bitmap2 from "../../asset/Bitmap2.png";
@@ -39,9 +40,9 @@ function Homepage() {
                       
                       <p className={classes.mainhead2}>The world is watching. Your thing can be their thing too!<br/>Go. Do your thing!!</p>
  
-                      
-                      <button class="btn btn-primary" className={classes.getbtn}><p style={{color:"#FFFFFF",fontSize:"1.8rem"}}>GET STARTED</p></button>
-               
+                      <Link to='/formpage'>
+                      <button const path='' class="btn btn-primary" className={classes.getbtn}><p style={{color:"#FFFFFF",fontSize:"1.8rem"}}>GET STARTED</p></button>
+                      </Link>
                     
                   </Col>
                </Row>
