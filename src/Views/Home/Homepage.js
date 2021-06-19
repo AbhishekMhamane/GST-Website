@@ -22,17 +22,17 @@ function Homepage() {
           
             
                
-               <div style={{height:'800px'}} className={classes.con}>
+               <div  className={classes.con}>
                <Header/>
                
                  
-               <Row>
+               <Row style={{paddingLeft:'5rem',paddingRight:'5rem'}}>
               <Col xl={4} lg={4} >
                    
                   </Col>
 
                   
-                  <Col xl={7} lg={7} >
+                  <Col xl={8} lg={8}  >
                      
               
 
@@ -40,11 +40,12 @@ function Homepage() {
                       
                       <p className={classes.mainhead2}>The world is watching. Your thing can be their thing too!<br/>Go. Do your thing!!</p>
  
-                      <Link to='/formpage'>
+                      <Link to='/form'>
                       <button const path='' class="btn btn-primary" className={classes.getbtn}><p style={{color:"#FFFFFF",fontSize:"1.8rem"}}>GET STARTED</p></button>
                       </Link>
                     
                   </Col>
+
                </Row>
                 </div>
                 
@@ -85,7 +86,7 @@ function Homepage() {
 
                <Col xl={8} lg={8}>
 
-               <Row>
+               <Row style={{paddingTop:'3rem',paddingBottom:'3rem',paddingLeft:'1rem',paddingRight:'1rem'}}>
                <p className={classes.r3sub}>You get to do what you love. Period. You spread the word about brand, 
                causes, products, topics, issues and charities and earn from it!</p>
                </Row>
@@ -98,18 +99,19 @@ function Homepage() {
                  </Col>
              </Row>
 
-             <Row className={classes.r4}>
+{/*row 4 */}
+             <Row className={classes.row}>
                  <Col xl={1} lg={1}>
                 </Col>
-                   <Col xl={5} lg={5} >
+                   <Col xl={5} lg={{span:5,order:1}} md={{span:12,order:2}} sm={{span:12,order:2}} xs={{span:12,order:2}}>
                       
-                      <div className={classes.img1}>
+                      <div className={classes.img1} >
                       <img src={Bitmap}  class="img-thumbnail"></img>
                       </div>
                     </Col>
 
                     
-                   <Col xl={5} lg={5}>
+                   <Col style={{paddingBottom:'2rem'}} xl={5} lg={{span:5,order:2}} md={{span:12,order:1}} sm={{span:12,order:1}} xs={{span:12,order:1}}>
                        <p className={classes.r4sub}>Paid Camapign</p>
 
                        <p className={classes.r4par}>There are no free lunches, right?
@@ -119,10 +121,10 @@ function Homepage() {
 
 
 
-                <Row>
+                <Row className={classes.row}>
                  <Col xl={1} lg={1}>
                 </Col>
-                   <Col xl={5} lg={5}>
+                   <Col xl={5} lg={5} style={{paddingBottom:'2rem'}}>
                    <p className={classes.r4sub}>Barter Camapign</p>
 
                    <p className={classes.r4par}>Creator life begins with trade-offs, right?
@@ -141,17 +143,17 @@ function Homepage() {
 
 
 
-                <Row>
+                <Row className={classes.row}>
                  <Col xl={1} lg={1}>
                 </Col>
-                   <Col xl={5} lg={5} >
+                   <Col xl={5} lg={{span:5,order:1}} md={{span:12,order:2}} sm={{span:12,order:2}} xs={{span:12,order:2}} >
                    <div className={classes.img1}>
                       <img src={Bitmap3}  class="img-thumbnail"></img>
                       </div>
                     </Col>
 
                     
-                   <Col xl={5} lg={5}>
+                   <Col style={{paddingBottom:'2rem'}} xl={5} lg={{span:5,order:2}} md={{span:12,order:1}} sm={{span:12,order:1}} xs={{span:12,order:1}}>
                        <p className={classes.r4sub}>Content for DYT</p>
 
                        <p className={classes.r4par}>There are no free lunches, right?
@@ -161,15 +163,15 @@ function Homepage() {
 
 
 
-                <Row>
+                <Row className={classes.row}>
                  <Col xl={1} lg={1}>
                 </Col>
-                   <Col xl={5} lg={5}>
+                   <Col xl={5} lg={5} style={{paddingBottom:'2rem'}}>
                    <p className={classes.r4sub}>Social for Good</p>
 
-<p className={classes.r4par}>Everyone has content worth something, right?
-Sell custom content to us (exclusively or not) and earn some more moolah!
- </p>
+                     <p className={classes.r4par}>Everyone has content worth something, right?
+                     Sell custom content to us (exclusively or not) and earn some more moolah!
+                      </p>
                     </Col>
 
                     
@@ -183,21 +185,20 @@ Sell custom content to us (exclusively or not) and earn some more moolah!
 
 {/* row5 */}
 
-                <Row>
+                <Row style={{paddingTop:'10rem',paddingLeft:'1.5rem',paddingRight:'1.5rem'}}>
                 <p className={classes.r5head}>Meet the team</p>
                 </Row>
 
             <Row align="center" className={classes.teamimg}>
             
                 <Col xl={3} lg={3} md={6} sm={6} className={classes.colimg} >
-                <Card style={{ width: '25rem' }}>
-  <Card.Img variant="top" src={RDJ}/>
-  <Card.Body>
-    <Card.Title style={{fontSize:"2.4rem"}}>Laukik Chavan</Card.Title>
-    <Card.Text style={{fontSize:"2rem"}}>CEO</Card.Text>
-    
-  </Card.Body>
-</Card>
+                <Card style={{ width: '25rem',borderRadius:'3rem',boxShadow:'0 0 15px gray'}}>
+                <Card.Img variant="top" style={{borderRadius:'3rem'}} src={RDJ}/>
+                 <Card.Body>
+                   <Card.Title style={{fontSize:"2.4rem"}}>Laukik Chavan</Card.Title>
+                  <Card.Text style={{fontSize:"2rem"}}>CEO</Card.Text>
+                 </Card.Body>
+                </Card>
 
                                 
                 </Col>
@@ -205,8 +206,8 @@ Sell custom content to us (exclusively or not) and earn some more moolah!
 
                 <Col xl={3} lg={3} md={6} sm={6} className={classes.colimg}>
                 
-                <Card style={{ width: '25rem' }}>
-               <Card.Img variant="top" src={RDJ}/>
+                <Card style={{ width: '25rem' ,borderRadius:'3rem',boxShadow:'0 0 15px gray' }}>
+               <Card.Img variant="top" style={{borderRadius:'3rem'}} src={RDJ}/>
               <Card.Body>
                 <Card.Title style={{fontSize:"2.4rem"}}>Shreyas Chaudhari</Card.Title>
                 <Card.Text style={{fontSize:"2rem"}}>Campaign Manager</Card.Text>
@@ -218,8 +219,8 @@ Sell custom content to us (exclusively or not) and earn some more moolah!
 
                 <Col xl={3} lg={3} md={6} sm={6} className={classes.colimg}>
                 
-                <Card style={{ width: '25rem' }}>
-            <Card.Img variant="top" src={RDJ}/>
+                <Card style={{ width: '25rem' ,borderRadius:'3rem',boxShadow:'0 0 15px gray'}}>
+            <Card.Img variant="top" style={{borderRadius:'3rem'}} src={RDJ}/>
              <Card.Body>
                <Card.Title style={{fontSize:"2.4rem"}}>Pooja Kumbharkar</Card.Title>
              <Card.Text style={{fontSize:"2rem"}}>Product Designer</Card.Text>
@@ -231,8 +232,9 @@ Sell custom content to us (exclusively or not) and earn some more moolah!
 
                 <Col xl={3} lg={3} md={6} sm={6} className={classes.colimg}>
                 
-                <Card style={{ width: '25rem' }}>
-                   <Card.Img variant="top" src={RDJ}/>
+                <Card style={{width:'25rem',borderRadius:'3rem'
+                ,boxShadow:'0 0 15px gray' }}>
+                   <Card.Img variant="top" style={{borderRadius:'3rem'}} src={RDJ}/>
                    <Card.Body>
                   <Card.Title style={{fontSize:"2.4rem"}}>Abhishek Mhamane</Card.Title>
                   <Card.Text style={{fontSize:"2rem"}}>Product Designer</Card.Text>

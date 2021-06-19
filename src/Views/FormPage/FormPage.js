@@ -1,8 +1,8 @@
 import React from 'react'
 import { Col, Container ,Row,Card, Form, Button} from 'react-bootstrap'
 import {useForm} from 'react-hook-form';
-import Header from '../Header/Header'
-import Footer from '../Footer/Footer'
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 import classes from './FormPage.module.css'
 
 function FormPage() {
@@ -48,7 +48,7 @@ function FormPage() {
 
                 
             
-            <Card  style={{borderRadius:"3rem",borderSize:"2rem",paddingBottom:"5rem"}} >
+            <Card  style={{boxShadow:'0 0 15px gray',borderRadius:"3rem",borderSize:"2rem",paddingBottom:"5rem"}} >
 
            <Form onSubmit={handleSubmit(onSubmit)}>
 

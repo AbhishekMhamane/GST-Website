@@ -13,32 +13,30 @@ function Footer() {
             <Container fluid className={classes.con}>
                 
                 
-             <Row >
+             <Row style={{paddingLeft:'5rem',paddingRight:'5rem'}}>
 
 
-             <Col xl={1} lg={1} md={1} sm={0} >
-                 </Col>
+             
                
-                 <Col xl={6} lg={6} md={6} sm={12} >
+                 <Col xl={8} lg={8} md={12} sm={12} >
                  <p className={classes.head}>GST</p>
                  </Col>
 
-                 <Col xl={4} lg={4} md={4} sm={12} className={classes.icons} >
+                 <Col xl={4} lg={4} md={12} sm={12} className={classes.icons} >
                    <Table borderless >
                        
                        <tr>
-                           <td><img src={facebook}/></td>
-                           <td><img src={facebook}/></td>
-                           <td><img src={facebook}/></td>
-                           <td><img src={facebook}/></td>
+                           <td><img style={{width:'4rem'}} src={facebook}/></td>
+                           <td><img style={{width:'4rem'}} src={twitter}/></td>
+                           <td><img style={{width:'4rem'}} src={instagram}/></td>
+                           <td><img style={{width:'4rem'}} src={linkedin}/></td>
                        </tr>
 
                    </Table>
 
                  </Col>
                  
-                 <Col xl={1} lg={1} md={1} sm={0} >
-                 </Col>
+               
                 </Row>
 
 
@@ -60,51 +58,46 @@ function Footer() {
                  <Col xl={3} lg={3}  >
                  <p className={classes.sub}>CONTACT</p>
                  </Col>
-
                  
-             
-
-                
                </Row>
 
 
                <Row >
   
 
-              <Col xl={5} lg={5}   >
-              <p style={{fontSize:"1.5rem",color:"#FFFFFF",paddingTop:"4rem",paddingBottom:"3rem"}}>© 2020 GST. ALL RIGHTS RESERVED</p>
+              <Col xl={5} lg={5} >
+              <p className={classes.rights}>© 2020 GST. ALL RIGHTS RESERVED</p>
               </Col>
 
                </Row>
 
 
 
-               <Row  style={{paddingBottom:"2rem",marginLeft:"5rem",marginRight:"5rem"}}>
-               <Col xl={3} lg={3} >
-               <p style={{fontSize:"1.5rem",color:"#FFFFFF"}}>TERMS & CONDITION</p>
+               <Row  style={{paddingBottom:"2rem",marginLeft:"4rem",marginRight:"4rem"}}>
+               <Col xl={2} lg={2} >
+               <p className={classes.termsmenu}>TERMS & CONDITION</p>
 
                 </Col>
 
                 <Col xl={2} lg={2}   >
-                <p style={{fontSize:"1.5rem",color:"#FFFFFF"}}>PRIVACY POLICY</p>
+                <p className={classes.termsmenu}>PRIVACY POLICY</p>
 
                 </Col>
 
                 <Col xl={2} lg={2}   >
-                <p style={{fontSize:"1.5rem",color:"#FFFFFF"}}>COOKIE POLICY</p>
+                <p className={classes.termsmenu}>COOKIE POLICY</p>
 
                 </Col>
 
-                <Col xl={5} lg={5}>
-                <p style={{fontSize:"1.5rem",color:"#FFFFFF"}}>Any Questions? Drop Us A Line At howdy@gst.com</p>
+                <Col xl={6} lg={6}>
+                <p className={classes.anyquestion}>Any Questions? Drop Us A Line At howdy@gst.com</p>
                 </Col>
 
                 </Row>
 
 
 
-
-            </Container>
+        </Container>
         </div>
     )
 }

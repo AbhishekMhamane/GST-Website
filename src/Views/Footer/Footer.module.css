@@ -2,33 +2,31 @@
 {
     background: #404040;
     
-    
-
 }
 
 
 .head
 {
-    font-size: 12rem;
+    font-size: 10rem;
     font-weight: bold;
     color: #FFFFFF;
     text-align: left;
+
     
 }
 
 .icons
 {
-   padding-top: 7rem;
+   padding-top: 6rem;
   
- 
 }
 
 .border
 {
     border-top: 1px solid #979797;
    border-bottom: 1px solid #979797; 
-   margin-left: 5.5rem;
-   margin-right: 5.5rem;
+   margin-left: 5rem;
+   margin-right: 5rem;
    padding-top: 3rem;
    padding-bottom: 3rem;
 
@@ -36,11 +34,38 @@
 
 .sub
 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: bold;
     color: #FFFFFF;
     text-align: center;
     
+}
+
+.rights
+{
+    text-align: left;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    padding-left: 5rem;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+
+}
+
+
+
+.termsmenu
+{
+    text-align:left;
+    font-size:1.4rem;
+    color:#FFFFFF;
+}
+
+.anyquestion
+{
+    text-align:right;
+    font-size:1.4rem;
+    color:#FFFFFF;
 }
 
 
@@ -53,5 +78,22 @@
     {
         text-align: center;
         
+    }
+
+    .rights
+    {
+    text-align: center;
+    padding-left: 0rem;
+
+    }
+
+    .termsmenu
+    {
+    text-align:center;
+    }
+
+    .anyquestion
+    {
+    text-align:center;
     }
 }
