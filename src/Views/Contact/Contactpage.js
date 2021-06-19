@@ -50,16 +50,18 @@ function Contactpage() {
 
                 
             
-            <Card  style={{boxShadow:'0 0 15px gray',borderRadius:"3rem",borderSize:"2rem",paddingBottom:"5rem"}} >
+            <Card  style={{boxShadow:'0 0 15px gray',borderRadius:"3rem",borderSize:"2rem",paddingBottom:"2rem"}} >
               
             <Form onSubmit={handleSubmit(onSubmit)}>
               <Row>
 
-                <Col xl={5} lg={5}>
+                <Col lg={{span:7,order:2}} lg={{span:5,order:1}} md={{span:12,order:2}} 
+                sm={{span:12,order:2}} xs={{span:12,order:2}}>
                 <img src={map} style={{borderRadius:"3rem"}} class="img-thumbnail"></img>
                 </Col>
 
-                <Col xl={7} lg={7} >
+                <Col lg={{span:7,order:2}} lg={{span:7,order:2}} md={{span:12,order:1}} 
+                sm={{span:12,order:1}} xs={{span:12,order:1}}>
 
                     <Row align="left" xl={12} lg={12} style={{paddingTop:'2rem',paddingLeft:'3rem',paddingRight:'3rem'}}>
                         <Col>
@@ -110,14 +112,13 @@ function Contactpage() {
 
                     </Row>
 
-                    <Row align="center" style={{marginLeft:"3rem",marginRight:"3rem"}}>
+                    <Row align="center" style={{paddingTop:"4rem",paddingBottom:'3rem',marginLeft:"3rem",marginRight:"3rem"}}>
              
-             <Col>
+             <Col >
              <button style={{
                color:'white',
                fontSize:'2rem',
                fontWeight:'bold',
-               marginTop:"3rem",
                border:"none",
                borderRadius:"1rem",backgroundColor:"#FF0071"}} 
                className={classes.button}
