@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Col, Container ,Row,Card, Form, Button,Accordion,Tab,Nav} from 'react-bootstrap';
-import Header from '../Header/Header';
+import Header from '../Header/Header'
 import Footer from '../Footer/Footer';
 import classes from './FAQpage.module.css';
 
