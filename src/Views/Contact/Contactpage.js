@@ -120,7 +120,8 @@ function Contactpage() {
                fontSize:'2rem',
                fontWeight:'bold',
                border:"none",
-               borderRadius:"1rem",backgroundColor:"#FF0071"}} 
+               borderRadius:"1rem",backgroundColor:"#FF0071",
+               outline:'none'}} 
                className={classes.button}
              
                >SEND MESSAGE</button>   

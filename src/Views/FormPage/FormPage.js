@@ -161,7 +161,7 @@ function FormPage() {
                fontWeight:'bold',
                marginTop:"3rem",
                border:"none",
-               borderRadius:"10rem",backgroundColor:"#FF0071"}} 
+               borderRadius:"10rem",backgroundColor:"#FF0071",outline:'none'}} 
                className={classes.button}
              
                >Submit</button>   

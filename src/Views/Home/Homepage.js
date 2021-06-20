@@ -40,8 +40,8 @@ function Homepage() {
                       
                       <p className={classes.mainhead2}>The world is watching. Your thing can be their thing too!<br/>Go. Do your thing!!</p>
  
-                      <Link to='/form'>
-                      <button const path='' class="btn btn-primary" className={classes.getbtn}><p style={{color:"#FFFFFF",fontSize:"1.8rem"}}>GET STARTED</p></button>
+                      <Link to='/form' >
+                      <button const path='' style={{ outline:'none' }} class="btn btn-primary" className={classes.getbtn}><p style={{color:"#FFFFFF",fontSize:"1.8rem",outline:'none'}}>GET STARTED</p></button>
                       </Link>
                     
                   </Col>
@@ -222,7 +222,7 @@ function Homepage() {
                 <Card style={{ width: '25rem' ,borderRadius:'3rem',boxShadow:'0 0 15px gray'}}>
             <Card.Img variant="top" style={{borderRadius:'3rem'}} src={RDJ}/>
              <Card.Body>
-               <Card.Title style={{fontSize:"2.4rem"}}>Pooja Kumbharkar</Card.Title>
+               <Card.Title style={{fontSize:"2.4rem"}}>Abhishek Mhamane</Card.Title>
              <Card.Text style={{fontSize:"2rem"}}>Product Designer</Card.Text>
     
              </Card.Body>
@@ -236,7 +236,7 @@ function Homepage() {
                 ,boxShadow:'0 0 15px gray' }}>
                    <Card.Img variant="top" style={{borderRadius:'3rem'}} src={RDJ}/>
                    <Card.Body>
-                  <Card.Title style={{fontSize:"2.4rem"}}>Abhishek Mhamane</Card.Title>
+                  <Card.Title style={{fontSize:"2.4rem"}}>Pooja Kumbharkar</Card.Title>
                   <Card.Text style={{fontSize:"2rem"}}>Product Designer</Card.Text>
     
                   </Card.Body>

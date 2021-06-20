@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import react,{ Component } from "react";
 import {BrowserRouter as Router,Switch,Route,Redirect} from "react-router-dom";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Homepage from "./Views/Home/Homepage";
 import FormPage from './Views/FormPage/FormPage';
 import Contactpage from "./Views/Contact/Contactpage";

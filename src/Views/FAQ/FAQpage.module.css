@@ -1,0 +1,42 @@
+.back
+{
+    background-color: #2F67D3;
+    
+}
+
+.back2
+{
+    background-color: #2F67D3;
+    background-repeat:no-repeat;
+    padding-bottom: 15rem;
+    padding-top: 5rem;
+}
+.card
+{
+    border-radius: 15rem;
+}
+
+.getbtn
+{
+
+    width:18rem;
+    height:4rem;
+    border-radius: 35px;
+    background-color: #8C0EEF;
+    border: none;
+    text-align: center;
+    margin-left: 69%;
+    margin-top: 2rem;
+    outline:none;
+    
+  
+}
+
+
+@media (max-width : 991.98px)
+{
+
+    .getbtn{
+        margin-left: 0rem;
+    }
+}
